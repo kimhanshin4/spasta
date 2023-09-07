@@ -142,7 +142,7 @@
             $('#card').append(temp_html);
         });
 
-        let url = "HTTPS://spartacodingclub.shop/sparta_api/weather/seoul";
+        let url = "HTTP://spartacodingclub.shop/sparta_api/weather/seoul";
         fetch(url).then(res => res.json()).then(data => {
             let temp = data['temp']
 
